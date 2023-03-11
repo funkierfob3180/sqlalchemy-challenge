@@ -2,7 +2,7 @@
 Module 10 Challenge for Data Analytics and Visualization Boot Camp
 
 
---Part 1: Analyze and Explore the Climate Data
+## --Part 1: Analyze and Explore the Climate Data
 
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
 
@@ -17,7 +17,7 @@ Link Python to the database by creating a SQLAlchemy session.
 Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
 
---Precipitation Analysis
+### --Precipitation Analysis
 
 Find the most recent date in the dataset.
 
@@ -36,7 +36,7 @@ Plot the results by using the DataFrame plot method, as the following image show
 
 Use Pandas to print the summary statistics for the precipitation data.
 
---Station Analysis
+### --Station Analysis
 
 Design a query to calculate the total number of stations in the dataset.
 
@@ -59,7 +59,7 @@ Plot the results as a histogram with bins=12, as the following image shows:
 
 Close your session.
 
-Part 2: Design Your Climate App
+## --Part 2: Design Your Climate App
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
 
 /
